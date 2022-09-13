@@ -1,0 +1,56 @@
+{
+    "Four_Lane_Intersection": {
+        "checkpoints": [
+            {
+                "steps": 499880,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-499880.onnx",
+                "reward": 116.58275508880615,
+                "creation_time": 1662479627.0053234,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-499880.pt"
+                ]
+            },
+            {
+                "steps": 999984,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-999984.onnx",
+                "reward": 94.64406824111938,
+                "creation_time": 1662485737.077366,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-999984.pt"
+                ]
+            },
+            {
+                "steps": 1499952,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-1499952.onnx",
+                "reward": 106.62577557563782,
+                "creation_time": 1662492004.2063015,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-1499952.pt"
+                ]
+            },
+            {
+                "steps": 1987152,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-1987152.onnx",
+                "reward": null,
+                "creation_time": 1662498195.1606534,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-1987152.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1987152,
+            "file_path": "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection.onnx",
+            "reward": null,
+            "creation_time": 1662498195.1606534,
+            "auxillary_file_paths": [
+                "results\\Four_Lane_Intersection_One_Lane_Regular_Wait_Time\\Four_Lane_Intersection\\Four_Lane_Intersection-1987152.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

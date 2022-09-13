@@ -1,0 +1,38 @@
+{
+    "One_Lane_Intersection": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results/One_Lane_Violino/One_Lane_Intersection/One_Lane_Intersection-499968.onnx",
+                "reward": 68.82341957092285,
+                "creation_time": 1662988956.555904,
+                "auxillary_file_paths": [
+                    "results/One_Lane_Violino/One_Lane_Intersection/One_Lane_Intersection-499968.pt"
+                ]
+            },
+            {
+                "steps": 747080,
+                "file_path": "results/One_Lane_Violino/One_Lane_Intersection/One_Lane_Intersection-747080.onnx",
+                "reward": null,
+                "creation_time": 1662989914.3545039,
+                "auxillary_file_paths": [
+                    "results/One_Lane_Violino/One_Lane_Intersection/One_Lane_Intersection-747080.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 747080,
+            "file_path": "results/One_Lane_Violino/One_Lane_Intersection.onnx",
+            "reward": null,
+            "creation_time": 1662989914.3545039,
+            "auxillary_file_paths": [
+                "results/One_Lane_Violino/One_Lane_Intersection/One_Lane_Intersection-747080.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.0a0+71ca600"
+    }
+}

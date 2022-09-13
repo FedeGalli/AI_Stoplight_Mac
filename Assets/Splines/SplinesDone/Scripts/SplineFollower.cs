@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SplineFollower : MonoBehaviour {
+
+    public enum MovementType {
+        Normalized,
+        Units
+    }
+
+    [SerializeField] private SplineDone spline;
+    [SerializeField] private float speed = 0f;
+    [SerializeField] private MovementType movementType;
+
+    private float moveAmount;
+    private float maxMoveAmount;
+
+    private void Start() {
+        switch (movementType) {
+            default:
+            case MovementType.Normalized:
+                maxMoveAmount = 1f;
+                break;
+            case MovementType.Units:
+                maxMoveAmount = spline.GetSplineLength();
+                break;
+        }
+    }
+
+    private void FixedUpdate() {
+        if (spline != null){
+            moveAmount = (moveAmount + (Time.deltaTime * speed)) % maxMoveAmount;
+            switch (movementType) {
+                default:
+                case MovementType.Normalized:
+                    transform.position = spline.GetPositionAt(moveAmount);
+                    transform.forward = spline.GetForwardAt(moveAmount);
+                    break;
+                case MovementType.Units:
+                    transform.position = spline.GetPositionAtUnits(moveAmount);
+                    transform.forward = spline.GetForwardAtUnits(moveAmount);
+                    break;
+            }            
+        }  
+    }
+
+    public void setSpeed(float speed) {
+        this.speed = speed;
+    }
+
+    public void setSpline(SplineDone spline){
+        this.spline = spline;
+    }
+
+    public SplineDone getSpline(){
+        return spline;
+    }
+
+
+}

@@ -1,0 +1,12 @@
+Library/
+Logs/
+obj/
+venv/Include
+venv/Lib
+venv/bin
+venv/One_Lane_Violino_Build
+venv/pyvenv.cfg
+venv/__pycache__
+Temp/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj

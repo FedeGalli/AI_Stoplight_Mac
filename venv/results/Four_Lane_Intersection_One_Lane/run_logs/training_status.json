@@ -1,0 +1,38 @@
+{
+    "Four_Lane_Intersection": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection\\Four_Lane_Intersection-499968.onnx",
+                "reward": 109.42409229278564,
+                "creation_time": 1662546804.1742053,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection\\Four_Lane_Intersection-499968.pt"
+                ]
+            },
+            {
+                "steps": 848696,
+                "file_path": "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection\\Four_Lane_Intersection-848696.onnx",
+                "reward": 120.77145612239838,
+                "creation_time": 1662550389.4010384,
+                "auxillary_file_paths": [
+                    "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection\\Four_Lane_Intersection-848696.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 848696,
+            "file_path": "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection.onnx",
+            "reward": 120.77145612239838,
+            "creation_time": 1662550389.4010384,
+            "auxillary_file_paths": [
+                "results\\Four_Lane_Intersection_One_Lane\\Four_Lane_Intersection\\Four_Lane_Intersection-848696.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
