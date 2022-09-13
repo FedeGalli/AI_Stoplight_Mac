@@ -10,3 +10,4 @@ venv/__pycache__
 Temp/
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp.csproj
+.DS_Store
